@@ -1,0 +1,8 @@
+<project name="FahrenheitToCelsius" basedir="." default="run">
+	<target name="run">
+		<exec executable="jspec.bat" failonerror="true">
+			<arg line="run --rhino" />
+		</exec>
+	</target>
+</project>
+

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<title>Fahrenheit to Celsius</title>
+<link rel="stylesheet" type="text/css" href="f2c.css" />
+<script language="javascript" src="jquery-1.4.2.js"></script>
+<script language="javascript" src="f2c.js"></script>
+<script language="javascript" src="f2c.events.js"></script>
+</head>
+
+<body>
+	<h1>Code Club's Awesome Fahrenheit to Celsius Converter</h1>
+	<div>
+		Temperature:<br/>
+		<input id="sourceTemperature" type="text" size="10"/><br/><br/>
+		Conversion Type:<br/>
+		<input id="fahrenheitToCelsiusRadio" name="conversionOption" type="radio" 
+			value="fahrenheitToCelsius"/>Fahrenheit -> Celsius<br/>
+		<input id="celsiusToFahrenheitRadio" name="conversionOption" type="radio"
+			value="celsiusToFahrenheit"/>Celsius -> Fahrenheit<br/><br/>
+		<input id="convertButton" type="button" value="Execute the Awesome Conversion!" /><br/><br/>
+		Result:<br/>
+		<span id="resultTemperature"/>
+	</div>
+</body>
+</html>
