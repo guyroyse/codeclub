@@ -1,0 +1,6 @@
+Ideas for future Code Clubs
+ - Google App Engine
+ - Ruby on Rails
+ - Jasmine
+ - SproutCore
+ - Mobile Web App with jQTouch
