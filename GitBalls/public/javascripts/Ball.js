@@ -1,8 +1,11 @@
-function Ball(color) {
-  this.color = color;
-}
+var Ball = {
+	RED : 'red',
+	GREEN : 'green',
+	BLUE : 'blue',
+	YELLOW : 'yellow',
 
-Ball.BLUE = 'blue';
-Ball.RED = 'red';
-Ball.GREEN = 'green';
-Ball.YELLOW = 'yellow';
+	randomBall : function() {
+		var colors = [ this.RED, this.GREEN, this.BLUE, this.YELLOW ];
+		return colors[Math.floor(Math.random() * 4)];
+	}
+};
