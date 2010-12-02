@@ -6,18 +6,15 @@ beforeEach(function() {
 					&& player.isPlaying;
 		},
 		toBeValidColor : function() {
-			var cell = this.actual;
-			return (cell === Ball.RED || cell === Ball.GREEN
-					|| cell === Ball.BLUE || cell === Ball.YELLOW);
+			var color = this.actual.color;
+			return (color === Ball.RED || color === Ball.GREEN
+					|| color === Ball.BLUE || color === Ball.YELLOW);
 		},
 		hasLengthGreaterThan : function(size) {
-			var array = this.actual;
 			var count = 0;
-
-			for ( var index in array) {
+			for ( var index in this.actual) {
 				count++;
 			}
-
 			return count > size;
 		}
 	})

@@ -11,4 +11,8 @@ describe('Ball', function() {
 		expect(Ball.randomBall()).toBeValidColor();
 	});
 	
+	it("generates a ball that is initially unselected", function(){
+		expect(Ball.randomBall().selected).toBeFalsy();
+	});
+	
 });
