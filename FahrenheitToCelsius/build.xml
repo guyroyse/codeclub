@@ -1,6 +1,6 @@
 <project name="FahrenheitToCelsius" basedir="." default="run">
 	<target name="run">
-		<exec executable="/var/lib/gems/1.8/bin/jspec" osfamily="unix" failonerror="true">
+		<exec executable="jspec" osfamily="unix" failonerror="true">
 			<arg line="run --rhino" />
 		</exec>
 		<exec executable="jspec.bat" osfamily="windows" failonerror="true">
