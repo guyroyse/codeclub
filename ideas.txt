@@ -4,3 +4,6 @@ Ideas for future Code Clubs
  - Jasmine
  - SproutCore
  - Mobile Web App with jQTouch
+ - node.js
+ - Clojure intro
+ - Setting up Linux & VM
